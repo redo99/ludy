@@ -1,0 +1,3 @@
+services:
+  java:
+    image: eclipse-temurin:17-jdk
