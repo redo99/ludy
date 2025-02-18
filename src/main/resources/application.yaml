@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /ludy
+spring:
+  application:
+    name: ludy
+  data:
+    mongodb:
+      uri: ${DATA_BASE_URI}
