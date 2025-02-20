@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /ludy
+spring:
+  application:
+    name: ludy
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ludy-test-db
