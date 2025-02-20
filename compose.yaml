@@ -1,0 +1,36 @@
+services:
+  ludy-api:
+    image: ludy-api
+    build:
+      context: .
+    container_name: ludy-api-ctn
+    ports:
+      - 8080:8080
+    environment:
+      DATA_BASE_URI: mongodb://ludy-data:27017/ludy
+    networks:
+      - ludy-network
+    depends_on:
+      - ludy-data
+
+  ludy-data:
+    image: mongo:latest
+    container_name: ludy-data-ctn
+    ports:
+      - 27017:27017
+    networks:
+      - ludy-network
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: [ "CMD", "mongo", "--eval", "db.adminCommand('ping')" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  mongodb_data:
+
+networks:
+  ludy-network:
+    driver: bridge
