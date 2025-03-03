@@ -10,9 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Initialize a SpringBoot project structure [Ludy #2](https://github.com/users/redo99/projects/1?pane=issue&itemId=98266057&issue=redo99%7Cludy%7C2)
+- Dokerize Ludy api [Ludy #3](https://github.com/users/redo99/projects/1/views/1?pane=issue&itemId=98266344&issue=redo99%7Cludy%7C3)
 
 ### Changed
 ### Deprecated
 ### Removed
 ### Fixed
+
+- Error messages related to test DB [Ludy #6](https://github.com/users/redo99/projects/1?pane=issue&itemId=98733214&issue=redo99%7Cludy%7C6)
+
 ### Security
