@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initialize a SpringBoot project structure [Ludy #2](https://github.com/users/redo99/projects/1?pane=issue&itemId=98266057&issue=redo99%7Cludy%7C2)
 - Dokerize Ludy api [Ludy #3](https://github.com/users/redo99/projects/1/views/1?pane=issue&itemId=98266344&issue=redo99%7Cludy%7C3)
+- Configure spring doc openapi [Ludy #13](https://github.com/users/redo99/projects/1/views/1?pane=issue&itemId=100117503&issue=redo99%7Cludy%7C13)
 
 ### Changed
 ### Deprecated
